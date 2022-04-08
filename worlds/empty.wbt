@@ -1,0 +1,56 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.2183551009776246 0.06649984048424261 0.973600955778404 2.565090239483311
+  position 1.3462869705825233 -0.905993485185249 0.97798037323255
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+BasePanel {
+  rotation 0 1 0 0
+}
+BasePanel {
+  translation 0 0.6 0
+  rotation 1 0 0 0
+  name "base(1)"
+}
+BasePanel {
+  translation 0 1.2 0
+  rotation -1 0 0 0
+  name "base(2)"
+}
+ConveyorBelt {
+  hidden translation_1 0.39 0.029967909807407697 -0.01999999988212614
+  hidden rotation_1 -1 0 0 1.5707963267948968
+  translation -0.75 -0.5 0
+  rotation 1 0 0 1.5708
+  name "conveyor_belt1"
+  controller "controller_track"
+}
+ConveyorBelt {
+  hidden translation_1 0.3899999998351514 0.02996790980740793 -0.019999999946315516
+  hidden rotation_1 -1 -7.850462293418877e-17 -2.828818544087465e-16 1.5707963267948963
+  translation -0.75 -0.25 0
+  rotation 0.5773509358554485 0.5773489358556708 0.5773509358554485 2.0944
+  name "conveyor_belt2"
+  controller "controller_track"
+}
+ConveyorBelt {
+  hidden translation_1 0.3899999998351514 0.029967909807407926 -0.019999999946315405
+  hidden rotation_1 -1 -7.850462293418877e-17 -2.828818544087465e-16 1.5707963267948963
+  translation -0.48 -0.25 2.17482e-07
+  rotation 0.5773509358554485 0.5773489358556708 0.5773509358554485 2.0944
+  name "conveyor_belt3"
+  controller "controller_track"
+}
+HorizontalShelf {
+  translation -0.8399999890242696 0.7000000109757303 -0.0039205315572426215
+  rotation -0.7071067811866331 0.7071067811864621 2.1421610990010533e-14 5.5314587335525754e-05
+}
+VerticalShelf {
+  translation -0.40000000000000013 0.7899999999803323 -2.3720269923060977e-05
+  rotation 2.591916011702202e-15 1.951020338198188e-09 1 3.14159
+}
